@@ -1,0 +1,12 @@
+#IntelliJ
+.idea
+
+# maven wrapper jar
+cool-app/.mvn/wrapper/maven-wrapper.jar
+# maven build output
+cool-app/target
+
+# zipped CodeSignTool
+CodeSignTool-v1.3.0.zip
+# CodeSignTool log file
+CodeSignTool-v1.3.0/logs/code_signing_tool.log
