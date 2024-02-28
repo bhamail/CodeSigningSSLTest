@@ -4,8 +4,8 @@ Test of Java Application Signing using SSL.com tooling
 Steps taken to setup this project.
 
 1. I added the [maven-wrapper](https://maven.apache.org/wrapper/) so you don't need to worry about fiddling much with 
-   Maven. Just run `./mvnw` where you'd normally run `mvn`.
-2. For reference only: DO NOTE EXECUTE THIS STEP: The test application source code was generated using the
+   Maven. Just use `./mvnw` where you'd normally use `mvn`.
+2. For reference only: DO NOTE EXECUTE THIS STEP: The test Java application source code was generated using the
    [Maven Archetype - Simple](https://maven.apache.org/guides/introduction/introduction-to-archetypes.html).
 
    <details>
@@ -14,7 +14,7 @@ Steps taken to setup this project.
    mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-simple
    ```
    </details>
-3. You will find your choice of JDK "matters(tm)". Old JDK 8 and newer JDK 17 had no joy. 
+3. You will find your choice of JDK "matters(tm)". JDK 8 and JDK 17 had no joy. 
    I had more success with JDK 11. I used [sdkman](https://sdkman.io) to run with JDK 11 like so:
 
    ```shell
@@ -45,6 +45,7 @@ Steps taken to setup this project.
 
    NOTE: Be sure you setup a One Time Password according to `Demo QR Codes and TOTP Secrets` in the article because you 
    will need to enter the One Time Password when you sign the jar. 
+   
    [Automate eSigner EV Code Signing](https://www.ssl.com/how-to/automate-esigner-ev-code-signing/) shows how to 
    automate this OTP process for CI.
 6. Build the application jar to be signed using:
