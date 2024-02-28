@@ -37,8 +37,8 @@ Steps taken to setup this project.
    ```
    </details>
 
-4. The CodeSignTool was downloaded the [Linux and macOS](https://www.ssl.com/download/codesigntool-for-linux-and-macos/)
-   link from [eSigner CodeSignTool Command Guide](https://www.ssl.com/guide/esigner-codesigntool-command-guide/). The 
+4. The CodeSignTool was downloaded via  [Linux and macOS](https://www.ssl.com/download/codesigntool-for-linux-and-macos/)
+   from [eSigner CodeSignTool Command Guide](https://www.ssl.com/guide/esigner-codesigntool-command-guide/). The 
    zip file contents where extracted to [CodeSignTool-v1.3.0](CodeSignTool-v1.3.0).
 5. The file: [CodeSignTool-v1.3.0/conf/code_sign_tool.properties](CodeSignTool-v1.3.0/conf/code_sign_tool.properties) 
    has been edited as per [eSigner Demo Credentials and Certificates](https://www.ssl.com/guide/esigner-demo-credentials-and-certificates/#ftoc-heading-1).
